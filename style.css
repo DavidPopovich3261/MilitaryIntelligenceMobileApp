@@ -37,6 +37,10 @@ nav svg {
     padding: 5px;
 }
 
+nav svg:hover{
+    transform: rotate(180deg );
+}
+
 nav a {
     color: #00db37;
     text-decoration: none;
@@ -69,7 +73,9 @@ header {
     /* text-align: center; */
     border-radius: 8px;
     border: #282531 solid 3px;
-
+}
+header:hover{
+    border: #00db37 solid 1px;
 }
 
 header section {
